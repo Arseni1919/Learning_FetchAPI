@@ -1,8 +1,14 @@
-# Learning Fetch API
+# Learning Async JS and Fetch API
 
 ## About
 
+### Fetch API
+
 The Fetch API provides an interface for fetching resources (including across the network). It will seem familiar to anyone who has used XMLHttpRequest, but the new API provides a more powerful and flexible feature set.
+
+### `async` function
+
+An async function is a function declared with the async keyword, and the await keyword is permitted within them. The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.
 
 ## [Fetch API Examples](static/js/home.js)
 

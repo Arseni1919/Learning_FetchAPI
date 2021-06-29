@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}
+    <title>Main Page</title>
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+
+        <h1 class="display-4 mb-4">Learning Fetch API</h1>
+        <div class="d-flex">
+        <button class="btn btn-primary mr-4" id="getText">Get Text</button>
+        <button class="btn btn-success mr-4" id="getUsers">Get JSON</button>
+        <button class="btn btn-warning mr-4" id="getPosts">Get API Data</button>
+
+        </div>
+        <hr>
+        <form action="" id="addPost">
+            <div class="form-group">
+                <input class="form-control" type="text" id="title" placeholder="Title">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="body" placeholder="Body"></textarea>
+            </div>
+            <br>
+            <input class="btn btn-secondary mr-4" type="submit" value="Submit">
+        </form>
+        <hr>
+        <div id="output1"></div>
+
+        <br><br>
+
+        <div id="output2"></div>
+
+        <br><br>
+
+        <div id="output3"></div>
+    </div>
+
+
+    <script src="../static/js/home.js"></script>
+{% endblock %}
